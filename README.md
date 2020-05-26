@@ -13,6 +13,8 @@ Update
 ./anchore-cli system wait
 ```
 
+Test the security
+```
 ./anchore-cli image add mario21ic/devopsperu:1.0
 ./anchore-cli image wait mario21ic/devopsperu:1.0
 
@@ -24,6 +26,7 @@ Update
 ./anchore-cli image vuln mario21ic/devopsperu:1.0 all
 
 ./anchore-cli evaluate check  mario21ic/devopsperu:1.0 
+```
 
 Note: Download or update docker-compose recipe:
 ```
